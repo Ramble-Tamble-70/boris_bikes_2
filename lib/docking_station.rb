@@ -6,10 +6,10 @@ end
 
 class Bike
   def initialize(status)
-    @status =status
+    @status = status
   end
   def working?
-    if @status = "working"
+    if @status == "working"
       return "working"
     else
       return "not-working"
